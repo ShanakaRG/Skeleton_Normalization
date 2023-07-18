@@ -19,6 +19,9 @@ Shanaka Ramesh Gunasekara
 
 
 def skeleton_normalization (data_fp):
+    '''
+    Inpout shape N,M,T,V,C list of data
+    '''
     print('*************  skeleton normalization ***************')
     data_fp = np.array(data_fp,dtype=np.float32)
         
